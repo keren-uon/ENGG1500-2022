@@ -2,6 +2,8 @@ from time import sleep
 from machine import Pin
 from motor import Motor
 
+print("Hello world")
+
 line_sensor = Pin(26, Pin.IN)
 # Create left and right ‘Motor’ objects
 motor_left = Motor("left", 8, 9, 7)
