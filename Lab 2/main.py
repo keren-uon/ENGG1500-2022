@@ -6,8 +6,8 @@ print("Hello world")
 
 line_sensor = Pin(26, Pin.IN)
 # Create left and right ‘Motor’ objects
-motor_left = Motor("left", 8, 9, 7)
-motor_right = Motor("right", 10, 11, 6)
+motor_left = Motor("left", 8, 9, 6)
+motor_right = Motor("right", 10, 11, 7)
 while True:
 	motor_left.set_forwards()  # Set the left motor to run forwards
 	motor_right.set_forwards()  # Set the right motor to run forwards

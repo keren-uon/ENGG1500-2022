@@ -2,11 +2,11 @@
 # TODO: Initialise encoders
 # TODO: Initialise motors
 
-print("PWM, ENC_L, ENC_R");
+print("PWM, ENC_L, ENC_R")
 
 while True:
-  pwm = 0;
-  for pwm in range(0,100,5) #Loop from 0-100% increasing by 5%
+  pwm = 0
+  for pwm in range(0,100,5):  #Loop from 0-100% increasing by 5%
     # TODO:
     # Zero encoders
     # Set left and right motor PWM
