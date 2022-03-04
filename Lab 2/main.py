@@ -2,7 +2,7 @@ from time import sleep
 from machine import Pin
 from motor import Motor
 
-print("Hello world")
+print("Hello world") # on startup
 
 line_sensor = Pin(26, Pin.IN)
 # Create left and right ‘Motor’ objects
